@@ -92,8 +92,8 @@ resources:
         type: process
         processor:
             name: HelloWorld
-    wind_calculator_demo:
-        type:
+    wind-calculator-demo:
+        type: process
         processor:
-            name: pygeoapi.provider.wind_calculator_demo
+            name: pygeoapi.process.wind_calculator_demo.WindCalculatorDemoProcessor
 
